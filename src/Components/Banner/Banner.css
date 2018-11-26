@@ -1,0 +1,182 @@
+.banner-head{
+   margin-top : 2%;
+   margin-left : 15%;
+   margin-right : 15%;
+   background-color : #cc0000;
+   height : 55vh;
+}
+.banner-head-img{
+  background-color : white;
+   border : 1px solid white;
+   margin-top : -2%;
+   padding : 2%;
+}
+@media screen and (max-width : 768px){
+  .Banner{
+    padding : 0!important;
+    margin : 0;
+  }
+   .banner-head{
+      margin-left : 0vw;
+      margin-right : 0vw;
+      width : 100vw;
+      margin-top : 5%;
+      background-color : #cc0000;
+      height : 0;
+   }
+}
+.banner-content-one{
+   margin-top : 1.5%!important;
+   margin-left : 17%!important;
+}
+.banner-content-one .row{
+  padding : 0!important;
+  margin : 0!important;
+}
+.banner-content-one-box{
+  background-color : white;
+  margin-top : -3%;
+  border : 1px solid #cccccc;
+}
+.banner-content-one-box-text{
+   padding-left : 10%;
+}
+.banner-one{
+  background-image: url("../../assets/img/bg-block.png");
+  background-repeat : no-repeat;
+  margin-top : -5%;
+}
+.banner-content-one-box-one{
+   height : 30vh;
+   margin-left : 2%;
+}
+.banner-content-one-box-text{
+    text-align: right;
+    padding-top : 9%!important;
+    padding-left   : 45%!important;
+}
+.banner-content-one-box-text h1{
+   font-weight : bold;
+   font-size  : 3em;
+   color : #990000;
+   margin-bottom : 0;
+}
+.banner-content-one-box-text p{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.banner-content-one-box-text h5{
+  position: relative;
+  margin-top : -1%;
+  margin-left : -50%;
+  color : grey;
+}
+.banner-two{
+  background-image: url("../../assets/img/bg-block-1.png");
+  background-repeat : no-repeat;
+}
+.banner-content-one-box-two{
+  height : 30vh;
+  margin-left : 2%;
+}
+.banner-three{
+  background-image: url("../../assets/img/bg-block-2.png");
+  background-repeat : no-repeat;
+}
+.banner-content-one-box-three{
+    height : 30vh;
+    margin-left : 2%;
+}
+.banner-content-one-box-text h2{
+   color : #990000;
+   font-weight : bold;
+   font-size : 2.5em;
+   margin-bottom : 0;
+   margin-top : 5%;
+}
+.banner-content-one-box-three .banner-content-one-box-text h2{
+  margin-top: 25%!important;
+}
+.banner-content-one-box-three .banner-content-one-box-text h5{
+  margin-top : 2%;
+  color : grey;
+}
+.banner-content-one-btn{
+    background-color : #990000;
+    color: white;
+    font-family: Roboto Slab;
+    padding : 4%!important;
+    margin-top : 19%;
+}
+.banner-content-one-box-two .banner-content-one-btn{
+  margin-top : 14%!important;
+}
+@media screen and (max-width : 768px){
+  .banner-content-one{
+     margin-top : 35vh!important;
+     margin-left : 2%!important;
+  }
+  .banner-content-one-box{
+    margin-top : 10vh;
+    height : 50vh;
+  }
+  .banner-content-one-btn{
+    margin-top : 8%;
+  }
+  .banner-content-one-box-one{
+    margin-top : 2vh;
+  }
+  .banner-content-one-box-two .banner-content-one-btn{
+    margin-top : 3%!important;
+  }
+}
+.banner-content-two{
+  margin-top : 5%;
+}
+.ban-two, .ban-three {
+  margin-left : 2%;
+}
+.ban-text{
+  text-align : left;
+  font-family : Dancing;
+}
+.ban-text h5{
+  font-style: italic;
+  color : #cc0000;
+}
+red{
+  color : red;
+}
+.banner-content-two .row .row h2 span{
+    font-family : cursive;
+}
+.ban-btn{
+  background-color : #404040;
+  color: white;
+  font-family : serif;
+  border-radius: 0%!important;
+  padding:  8%!important;
+}
+.banner-content-two h1{
+  font-family: Roboto Slab;
+}
+.banner-content-two .row{
+  padding : 0;
+  margin : 0;
+}
+@media screen and (max-width : 768px){
+  .ban-text{
+    padding:  5%;
+    text-align: center;
+    width : 95vw;
+  }
+  .margin{
+      margin-top : 10%;
+  }
+  .ban{
+    background-color : #f2f2f2;
+  }
+  .ban-btn{
+      margin-bottom : 10%!important;
+  }
+}

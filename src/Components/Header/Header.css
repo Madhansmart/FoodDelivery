@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.header-text{
+  text-align : right;
+}
+.header-text-para-1{
+  font-family : Dancing Script, sans-serif;
+  margin-bottom : 0;
+}
+.header-text-para-2{
+    font-family : Roboto Slab;
+    font-weight: bold;
+    font-size : 1.2em;
+}
+.bg-custom{
+  background-color : #333333!important;
+}
+.nav-item a{
+    color : white!important;
+    padding : 5% 0%!important;
+}
+.nav-link{
+    width : 8vw!important;
+    padding-left : 0%!important;
+}
+.header-head{
+  font-weight : bold;
+  font-family: Roboto Slab;
+}
+.header-head h1{
+  color : #cc0000;
+  font-size : 4em;
+  margin-bottom : 0%;
+}
+.header-head p{
+  margin-top : 0%;
+  font-size : 1.5em;
+  margin-top : -1%;
+}
+@media screen and (max-width : 768px){
+  .Header{
+    padding:  0!important;
+  }
+   .nav-link {
+     width : 80vw!important;
+    }
+}
